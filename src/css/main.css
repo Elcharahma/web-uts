@@ -1,0 +1,225 @@
+.jumb{
+    background-image: url('/src/assets/foto/bekgron.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+      
+}
+.jumb h1{
+    font-size: 100px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+.jumb p{
+    font-weight:500;
+    color : #8C7594;
+}
+.bio{
+    color : #4A1770 !important;
+    font-family: 'Lobster', sans-serif;
+}
+.navatas{
+    background-color: #FFCBDA !important;
+}
+.nav-link:hover::after{
+    border-bottom: 2px solid #ffff;
+    display: block;
+    content: '';
+    width: 50%;
+    margin: auto;
+    margin-bottom: -4px;
+}
+
+.nav-link{
+    margin-right: 10px;
+    text-transform: uppercase;
+    color: #4A1770 !important;
+   
+}
+
+
+
+.about{
+    background-color: #FFD1DA;
+    height: 620px;
+    
+
+}
+.Col, .teks, h1 h2 p{
+    padding-top: 90px;
+}
+.teks, h1, h2, p{
+   
+    margin-top: 20px;
+    align-items: center;
+   
+}
+.Col,h1{
+    font-family: 'Poppins', sans-serif;
+}
+.Col,h2{
+    font-family: 'Lobster', sans-serif;
+}
+.all img{
+    margin-top: 130px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 25%;
+  
+}
+.Col,.teks,.buton,.fade{
+    margin-left: 10%;
+}
+
+.Col, img{
+    width : 300px;
+    height : 300px;
+     border-radius: 20px;
+     flex-wrap: wrap;
+      display: flex;
+    align-items: center;
+}
+
+.bodi, .gsatu{
+    display: flex;
+    align-items: center;
+    grid-gap: 30px;
+    flex-wrap: wrap;
+    padding: 10px;
+   
+}
+
+.galeri{
+    background-color: #6C5177;
+    margin-top: -20px;
+    height : 910px
+}
+
+.bodi{
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+   
+}
+.kontainer{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: #BD84A5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    width: 100%;
+    height: 550px;
+    max-width: 820px;
+    background: #ffff;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow: hidden;
+    z-index: 1000;
+    margin-top: 10px;
+}
+
+
+.first-text{
+    color:#6C5177;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.kontak img{
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.social-link{
+    margin-top: 80px;
+}
+.second-text{
+    color: #800000;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.sosmed{
+    display: flex;
+    list-style: none;
+}
+ i{
+    padding-left: 100px;
+    font-size: 24px;
+    margin-top: 10px;
+    color: #ffff;
+}
+.sosmed i{
+    background: hotpink;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 15px ;
+  
+    
+}
+.sosmed i:hover{
+    background: #6C5177;
+    color:#FFABB8;
+}
+.submit-form{
+    background :#FFABB8;
+}
+
+.third-text{
+    font-size: 28px;
+    padding-top: 10px;
+    top: 20px;
+    left: 20px;
+    position: relative;
+    color: white;
+ 
+}
+
+.Form{
+    padding: 0 50px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.input-box{
+    height: 40px;
+    width : 70%;
+    margin : 30 0px;
+    margin-top: 40px ;
+    align-items: center;
+    margin-left: 50px;
+    position: relative;
+}
+
+.input {
+    width : 100%;
+    height: 100%;
+    background: transparent;
+    border : 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 10px;
+    color : white;
+    font-size: 16px;
+}
+
+
+.but{
+    background-color: #6C5177 !important;
+    border: #6C5177;
+    margin-top: 20px;
+}

@@ -194,14 +194,13 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
-    margin-top: 30px;
 }
 
 .input-box{
     height: 40px;
     width : 70%;
     margin : 30 0px;
-    margin-top: 60px ;
+    margin-top: 40px ;
     align-items: center;
     margin-left: 50px;
     position: relative;
@@ -217,11 +216,19 @@
     padding-left: 10px;
     color : white;
     font-size: 16px;
+    margin-top: 40px;
+    margin-left: 50px;
 }
 
+textarea {
+    resize: vertical;
+    margin-top: 50px;
+    margin-left: 40px;
+}
 
 .but{
     background-color: #6C5177 !important;
     border: #6C5177;
     margin-top: 20px;
+    margin-left: 40px;
 }

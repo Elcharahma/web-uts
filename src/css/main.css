@@ -176,6 +176,7 @@
 }
 .submit-form{
     background :#FFABB8;
+    
 }
 
 .third-text{
@@ -193,13 +194,14 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
+    margin-top: 30px;
 }
 
 .input-box{
     height: 40px;
     width : 70%;
     margin : 30 0px;
-    margin-top: 40px ;
+    margin-top: 60px ;
     align-items: center;
     margin-left: 50px;
     position: relative;

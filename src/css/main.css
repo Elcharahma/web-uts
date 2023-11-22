@@ -41,7 +41,7 @@
 
 
 .about{
-    background-color: #FFD1DA;
+    background-color: #f8bec6;
     height: 620px;
     
 
@@ -122,7 +122,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     overflow: hidden;
-    z-index: 1000;
     margin-top: 10px;
 }
 
@@ -135,6 +134,7 @@
     font-family: 'Poppins', sans-serif;
 
 }
+
 .kontak img{
     width: 200px;
     height: 200px;
@@ -231,4 +231,17 @@ textarea {
     border: #6C5177;
     margin-top: 20px;
     margin-left: 40px;
+}
+
+.futer{
+    
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 58px;
+        background-color: #301843;
+        color: white;
+        text-align: center;
+        
 }

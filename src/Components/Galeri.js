@@ -16,22 +16,23 @@ const Galeri = () => {
    <Container>
     <Row>
         <Col className="bodi">
-        <h1 className="headgal text-center text-white">My Gallery</h1>
-        <div className="gsatu">
-        <img src={eca}/>
-        <img src={dini}/>
-        <img src={smk}/>
-        </div>
-        <div className="gsatu">
-        <img src={sd}/>
-        <img src={elz}/>
-        <img src={kos}/>
-        </div>
-        
-        </Col>
+          <h1 className="headgal text-center text-white">My Gallery</h1>
+            <div data-aos="zoom-out-up">
+              <div className="gsatu">
+                <img src={eca}/>
+                <img src={dini}/>
+                <img src={smk}/>
+              </div>
+              <div className="gsatu">
+                <img src={sd}/>
+                <img src={elz}/>
+                <img src={kos}/>
+             </div>
+            </div>
+      </Col>
     </Row>
    </Container>
-   </div>
+  </div>
   )
 }
 

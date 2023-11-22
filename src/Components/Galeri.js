@@ -17,7 +17,7 @@ const Galeri = () => {
     <Row>
         <Col className="bodi">
           <h1 className="headgal text-center text-white">My Gallery</h1>
-            <div data-aos="zoom-out-up">
+         
               <div className="gsatu">
                 <img src={eca}/>
                 <img src={dini}/>
@@ -28,7 +28,7 @@ const Galeri = () => {
                 <img src={elz}/>
                 <img src={kos}/>
              </div>
-            </div>
+    
       </Col>
     </Row>
    </Container>
